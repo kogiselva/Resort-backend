@@ -50,4 +50,4 @@ const roomSchema = new mongoose.Schema({
 });
 
 // Simple, single export for the model
-module.exports = mongoose.model('Room', roomSchema);
+module.exports = mongoose.models.Room || mongoose.model('Room', roomSchema);
