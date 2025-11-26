@@ -50,4 +50,4 @@ const roomSchema = new mongoose.Schema({
 });
 
 // ✅ Use the safe export pattern to prevent OverwriteModelError
-module.exports = mongoose.models.Room || mongoose.model('Room', roomSchema);
+module.exports =  mongoose.model('Room', roomSchema);
