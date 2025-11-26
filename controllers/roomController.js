@@ -1,4 +1,4 @@
-const Room = require('../models/Room');
+const Room = require('../models/Room'); // 👈 matches Room.js exactly
 
 // Create new room
 const createRoom = async (req, res) => {
