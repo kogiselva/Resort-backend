@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const Booking = require('../models/bookings');
 const Review = require('../models/review');
-const Room = require('../models/Room');
+const Room = require('../models/room');
 
 // Admin dashboard stats
 router.get('/dashboard', async (req, res) => {
