@@ -1,5 +1,5 @@
 const Booking = require('../models/bookings'); // ✅ lowercase, plural
-const Room = require('../models/Room');
+const Room = require('../models/room');
 
 // Create new booking
 const createBooking = async (req, res) => {
